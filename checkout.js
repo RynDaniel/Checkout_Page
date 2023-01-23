@@ -49,7 +49,7 @@ productsDiv.addEventListener("click", (e)=>{
 
 });
 
-const calculateProductPrice = () =>{
+const calculateProductPrice = (target) =>{
     //each product total calculation
     //productTotalPrice => quantity * price
     const productInfoDiv = target.closest(".product-info");
